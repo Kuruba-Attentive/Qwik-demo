@@ -1,6 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import Bookdemo from "~/components/bookdemo/bookdemo";
+// import Bookdemo from "~/components/bookdemo/bookdemo";
 import Demo from "~/components/demo/demo";
 import Growth from "~/components/growth/growth";
 import Herosection from "~/components/herosection/herosection";
@@ -17,7 +17,7 @@ export default component$(() => {
       <Growth />
       <Mobile />
       <Industry />
-      <Bookdemo />
+      {/* <Bookdemo /> */}
     </div>
   );
 });
